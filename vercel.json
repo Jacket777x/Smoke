@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "xray-relay",
+  "rewrites": [
+    {
+      "source": "/", 
+      "destination": "http://snow.opik.net:8086"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
