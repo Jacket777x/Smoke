@@ -1,0 +1,6 @@
+# Minimal Serverless Function
+def handler(request):
+    return {
+        "statusCode": 200,
+        "body": "API is running"
+    }
